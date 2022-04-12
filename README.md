@@ -37,7 +37,7 @@ header에 해당 값이 누락이 되면 API 호출에 실패합니다.
 
 전체 Document의 구조를 트리 형태로 가져옵니다.
 
-> https://kdt-frontend.todo-api.programmers.co.kr/documents - GET
+>  https://kdt-frontend.programmers.co.kr/documents - GET
 
 Response의 형태는 아래와 같습니다.
 ```
@@ -69,7 +69,7 @@ Response의 형태는 아래와 같습니다.
 
 ### 특정 Document의 content 조회하기
 
-> https://kdt-frontend.todo-api.programmers.co.kr/documents/{documentId} - GET
+>  https://kdt-frontend.programmers.co.kr/documents/{documentId} - GET
 
 Response의 형태는 아래와 같습니다.
 
@@ -93,7 +93,7 @@ Response의 형태는 아래와 같습니다.
 
 ### Document 생성하기
 
-> https://kdt-frontend.todo-api.programmers.co.kr/documents - POST
+>  https://kdt-frontend.programmers.co.kr/documents - POST
 
 request body에 JSON 형태로 아래처럼 값을 넣어야 합니다.
 
@@ -120,7 +120,7 @@ request body에 JSON 형태로 아래처럼 값을 넣어야 합니다.
 
 ### 특정 Document 수정하기
 
-> https://kdt-frontend.todo-api.programmers.co.kr/documents/{documentId} - PUT
+>  https://kdt-frontend.programmers.co.kr/documents/{documentId} - PUT
 
 request body에 수정할 내용을 JSON 형태로 넣으면 됩니다.
 ```json
@@ -132,7 +132,7 @@ request body에 수정할 내용을 JSON 형태로 넣으면 됩니다.
 
 ### 특정 Document 삭제하기
 
-> https://kdt-frontend.todo-api.programmers.co.kr/documents/{documentId} - DELETE
+>  https://kdt-frontend.programmers.co.kr/documents/{documentId} - DELETE
 
 documentId에 해당하는 Document를 삭제합니다.
 
