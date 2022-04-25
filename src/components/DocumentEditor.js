@@ -95,13 +95,13 @@ function DocumentEditor({ $target, onTitleChange, onSave, onSaveComplete }) {
 
   // 클릭 event
   $container.addEventListener('click', (event) => {
-    event.stopPropagation();
     const { className } = event.target;
 
     // 경로 클릭 시, 해당 document로 이동
     if (className === 'path') {
       const { id } = event.target;
       if (id != 'undefined') {
+        event.stopPropagation();
         history.pushState(null, null, `/${id}`);
         window.dispatchEvent(new CustomEvent(ROUTE_CHANGE_EVENT, {}));
       }
