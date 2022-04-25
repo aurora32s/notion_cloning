@@ -1,0 +1,26 @@
+/* font family */
+@font-face {
+  font-family: 'DO_HYEON';
+  src: url('/src/resources/fonts/BMDOHYEON_ttf.ttf');
+}
+@font-face {
+  font-family: 'HANNA_11';
+  src: url('/src/resources/fonts/BMHANNAAir_ttf.ttf');
+}
+
+body {
+  margin: 0px;
+}
+
+ul {
+  list-style: none;
+}
+
+#app {
+  height: 100%;
+}
+
+.root {
+  display: flex;
+  height: 100%;
+}

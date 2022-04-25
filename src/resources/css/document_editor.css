@@ -1,0 +1,48 @@
+/* documentEditor.js css */
+.editor {
+  width: 100%;
+  padding: 10px;
+  position: relative;
+  overflow: scroll;
+}
+
+.editor .history {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 15px;
+  width: 100%;
+  background: white;
+  font-family: 'HANNA_11';
+  font-weight: bold;
+  word-break: keep-all;
+}
+
+.editor .edit-area {
+  padding-top: 65px;
+}
+
+.editor .title {
+  border: none;
+  font-size: 39px;
+  font-family: 'DO_HYEON';
+  font-style: bold;
+  outline: none;
+}
+
+.editor .history .path:hover {
+  color: #d10000;
+}
+.editor .edit-area .content {
+  height: 100%;
+  margin-top: 20px;
+  outline: none;
+}
+.editor .edit-btn button {
+  background: white;
+  border: 1px solid #e0e0e0;
+  padding: 7px 15px;
+  border-radius: 7px;
+  box-shadow: 5px 5px 5px 0px rgba(117, 117, 117, 0.3);
+  filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.3));
+}
